@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <title>Seongwon Yoon</title>
+
+    <meta name="author" content="Seongwon Yoon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="shortcut icon"
+      href="images/favicon/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+  </head>
+
+  <body>
+    <table
+      style="
+        width: 100%;
+        max-width: 800px;
+        border: 0px;
+        border-spacing: 0px;
+        border-collapse: separate;
+        margin-right: auto;
+        margin-left: auto;
+      "
+    >
+      <tbody>
+        <tr style="padding: 0px">
+          <td style="padding: 0px">
+            <table
+              style="
+                width: 100%;
+                border: 0px;
+                border-spacing: 0px;
+                border-collapse: separate;
+                margin-right: auto;
+                margin-left: auto;
+              "
+            >
+              <tbody>
+                <tr style="padding: 0px">
+                  <td style="padding: 2.5%; width: 63%; vertical-align: middle">
+                    <p class="name" style="text-align: center">Jon Barron</p>
+                    <p>
+                      I graduated from Seoul National University in Seoul with
+                      B.S. in materials science in engineering, 4th place in
+                      class 2022.
+                    </p>
+                    <p>At .</p>
+                    <p style="text-align: center">
+                      <a href="mailto:gabrielyoon@snu.ac.kr">Email</a>
+                      &nbsp;/&nbsp;
+                      <a href="data/CV_SeongwonYoon.pdf">CV</a> &nbsp;/&nbsp;
+                      <!-- <a href="data/JonBarron-bio.txt">Bio</a> &nbsp;/&nbsp; -->
+                      <!-- <a href="https://scholar.google.com/citations?hl=en&user=jktWnL8AAAAJ">Scholar</a> &nbsp;/&nbsp; -->
+                      <!-- <a href="https://www.threads.net/@jonbarron">Threads</a> &nbsp;/&nbsp; -->
+                      <!-- <a href="https://bsky.app/profile/jonbarron.bsky.social">Bluesky</a> &nbsp;/&nbsp; -->
+                      <!-- <a href="https://twitter.com/jon_barron">Twitter</a> &nbsp;/&nbsp; -->
+                      <a href="https://github.com/Gabriel-Yoon/">Github</a>
+                    </p>
+                  </td>
+                  <td style="padding: 2.5%; width: 40%; max-width: 40%">
+                    <a href="images/Seongwon_Yoon.jpg"
+                      ><img
+                        style="
+                          width: 100%;
+                          max-width: 100%;
+                          object-fit: cover;
+                          border-radius: 50%;
+                        "
+                        alt="profile photo"
+                        src="images/JonBarron_circle.jpg"
+                        class="hoverZoomLink"
+                    /></a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table
+              style="
+                width: 100%;
+                border: 0px;
+                border-spacing: 0px;
+                border-collapse: separate;
+                margin-right: auto;
+                margin-left: auto;
+              "
+            >
+              <tbody>
+                <tr>
+                  <td
+                    style="padding: 20px; width: 100%; vertical-align: middle"
+                  >
+                    <h2>Research</h2>
+                    <p>
+                      I'm interested in adopting novel electronic materials in
+                      computing such as neuromorphic computing.
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table
+              style="
+                width: 100%;
+                border: 0px;
+                border-spacing: 0px;
+                border-collapse: separate;
+                margin-right: auto;
+                margin-left: auto;
+              "
+            >
+              <tbody>
+                <tr onmouseout="camp_stop()" onmouseover="camp_start()">
+                  <td style="padding: 20px; width: 25%; vertical-align: middle">
+                    <div class="one">
+                      <div class="two" id="camp_image">
+                        <video width="100%" height="100%" muted autoplay loop>
+                          <source src="images/camp.mp4" type="video/mp4" />
+                          Your browser does not support the video tag.
+                        </video>
+                      </div>
+                      <img src="images/camp.png" width="160" />
+                    </div>
+                    <script type="text/javascript">
+                      function camp_start() {
+                        document.getElementById("camp_image").style.opacity =
+                          "1";
+                      }
+
+                      function camp_stop() {
+                        document.getElementById("camp_image").style.opacity =
+                          "0";
+                      }
+                      camp_stop();
+                    </script>
+                  </td>
+                  <td style="padding: 20px; width: 75%; vertical-align: middle">
+                    <a href="https://camp-nerf.github.io/">
+                      <span class="papertitle"
+                        >CamP: Camera Preconditioning for Neural Radiance
+                        Fields</span
+                      >
+                    </a>
+                    <br />
+                    <a href="https://keunhong.com/">Keunhong Park</a>,
+                    <a href="https://henzler.github.io/">Philipp Henzler</a>,
+                    <a href="https://bmild.github.io/">Ben Mildenhall</a>,
+                    <strong>Jonathan T. Barron</strong>,
+                    <a href="http://www.ricardomartinbrualla.com/"
+                      >Ricardo Martin-Brualla</a
+                    >
+                    <br />
+                    <em>SIGGRAPH Asia</em>, 2023
+                    <br />
+                    <a href="https://camp-nerf.github.io/">project page</a>
+                    /
+                    <a href="https://arxiv.org/abs/2308.10902">arXiv</a>
+                    <p></p>
+                    <p>
+                      Preconditioning based on camera parameterization helps
+                      NeRF and camera extrinsics/intrinsics optimize better
+                      together.
+                    </p>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td style="padding: 20px; width: 25%; vertical-align: middle">
+                    <img
+                      src="images/safs.jpg"
+                      alt="safs_small"
+                      width="160"
+                      height="160"
+                      style="border-style: none"
+                    />
+                  </td>
+                  <td width="75%" valign="middle">
+                    <a
+                      href="https://drive.google.com/file/d/1EZTOO5xezLYcyIFgAzs4KuZFLbTcwTDH/view?usp=sharing"
+                    >
+                      <span class="papertitle"
+                        >High-Frequency Shape and Albedo from Shading using
+                        Natural Image Statistics</span
+                      >
+                    </a>
+                    <br />
+                    <strong>Jonathan T. Barron</strong>,
+                    <a href="http://www.cs.berkeley.edu/~malik/"
+                      >Jitendra Malik</a
+                    >
+                    <br />
+                    <em>CVPR</em>, 2011
+                    <br />
+                    <a href="data/BarronMalikCVPR2011.bib">bibtex</a>
+                    <p>This paper is subsumed by <a href="#SIRFS">SIRFS</a>.</p>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td style="padding: 20px; width: 25%; vertical-align: middle">
+                    <img
+                      src="images/fast_texture.jpg"
+                      alt="fast-texture"
+                      width="160"
+                      height="160"
+                    />
+                  </td>
+                  <td width="75%" valign="middle">
+                    <a
+                      href="https://drive.google.com/file/d/1rc05NatkQVmUDlGCAYcHSrvAzTpU9knT/view?usp=sharing"
+                    >
+                      <span class="papertitle"
+                        >Discovering Efficiency in Coarse-To-Fine Texture
+                        Classification</span
+                      >
+                    </a>
+                    <br />
+                    <strong>Jonathan T. Barron</strong>,
+                    <a href="http://www.cs.berkeley.edu/~malik/"
+                      >Jitendra Malik</a
+                    >
+                    <br />
+                    <em>Technical Report</em>, 2010
+                    <br />
+                    <a href="data/BarronTR2010.bib">bibtex</a>
+                    <p>
+                      A model and feature representation that allows for
+                      sub-linear coarse-to-fine semantic segmentation.
+                    </p>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td style="padding: 20px; width: 25%; vertical-align: middle">
+                    <img
+                      src="images/prl.jpg"
+                      alt="prl"
+                      width="160"
+                      height="160"
+                    />
+                  </td>
+                  <td width="75%" valign="middle">
+                    <a
+                      href="https://drive.google.com/file/d/13rVuJpcytRdLYCnKpq46g7B7IzSrPQ2P/view?usp=sharing"
+                    >
+                      <span class="papertitle"
+                        >Parallelizing Reinforcement Learning</span
+                      >
+                    </a>
+                    <br />
+                    <strong>Jonathan T. Barron</strong>,
+                    <a href="http://www.eecs.berkeley.edu/~dsg/">Dave Golland</a
+                    >,
+                    <a href="http://www.cs.berkeley.edu/~nickjhay/"
+                      >Nicholas J. Hay</a
+                    >
+                    <br />
+                    <em>Technical Report</em>, 2009
+                    <br />
+                    <a href="data/BarronPRL2009.bib">bibtex</a>
+                    <p>
+                      Markov Decision Problems which lie in a low-dimensional
+                      latent space can be decomposed, allowing modified RL
+                      algorithms to run orders of magnitude faster in parallel.
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table
+              style="
+                width: 100%;
+                border: 0px;
+                border-spacing: 0px;
+                border-collapse: separate;
+                margin-right: auto;
+                margin-left: auto;
+              "
+            >
+              <tbody>
+                <tr>
+                  <td style="padding: 0px">
+                    <br />
+                    <p style="text-align: right; font-size: small">
+                      Design and source code from
+                      <a href="https://github.com/jonbarron/jonbarron_website"
+                        >source code</a
+                      >.
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
