@@ -148,6 +148,46 @@
               <tbody>
                 <tr>
                   <td style="padding: 20px; width: 25%; vertical-align: middle">
+                    <img src="images/optical_kv_cache.png" style="width: 100%; max-width: 220px" alt="" />
+                  </td>
+                  <td width="75%" valign="middle">
+                    <a href="https://arxiv.org/abs/2610.18444"><strong>An Optical KV Cache Network for Disaggregated LLM Serving</strong></a>
+                    <br />
+                    <strong>Seongwon Yoon</strong>, Shimeng Yu
+                    <br />
+                    <em>arXiv preprint <strong>arXiv:2610.18444</strong>, 2026.</em>
+                    <p>
+                      Disaggregated LLM serving moves each request's KV cache
+                      from a prefill GPU to a decode GPU, and behind an
+                      oversubscribed packet fabric this transfer adds to time to
+                      first token. An optical circuit switch gives every transfer
+                      a full-rate circuit, and a reservation scheduler commits
+                      each circuit while the prefill is still computing so the
+                      tens-of-millisecond reconfiguration is hidden. On real
+                      serving traces with measured H100 prefill times, the
+                      optical KV cache network matches 400G packet fabrics with
+                      adaptive routing at 0.55&ndash;0.78&times; the cost of a 2:1
+                      fabric and tolerates the 50 ms reconfiguration of a
+                      384-port mechanical OCS.
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <table
+              style="
+                width: 100%;
+                border: 0px;
+                border-spacing: 0px;
+                border-collapse: separate;
+                margin-right: auto;
+                margin-left: auto;
+              "
+            >
+              <tbody>
+                <tr>
+                  <td style="padding: 20px; width: 25%; vertical-align: middle">
                     <img src="images/thermal_tuning_moe.png" style="width: 100%; max-width: 220px" alt="" />
                   </td>
                   <td width="75%" valign="middle">
